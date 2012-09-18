@@ -1,6 +1,9 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.7'
+gem 'rails', '3.2.8'
+gem 'rspec-rails', '2.11.0'
+gem 'bcrypt-ruby', '3.0.1'
+gem 'factory_girl_rails', '1.4.0'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -24,7 +27,6 @@ end
 gem 'jquery-rails', '2.0.2'
 
 group :development, :test do
-  gem 'rspec-rails', ">= 2.0.0.beta"
   gem 'capybara'
 end
 
